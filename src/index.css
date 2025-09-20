@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.gradient-bg {
+  background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.35), transparent 55%),
+    radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.35), transparent 50%),
+    linear-gradient(135deg, rgba(15, 118, 110, 0.85), rgba(59, 130, 246, 0.65));
+}
+
+.card-glow {
+  box-shadow: 0 15px 60px rgba(14, 165, 233, 0.35);
+}
